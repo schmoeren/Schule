@@ -14,11 +14,11 @@ int main()
 	}
 	else if (anzahlStifte < 300)
 	{
-		betrag = anzahlStifte * preisStift * 0.9;		// 10% Rabatt, da Anzahl über 99 und unter 300 (100-299) ist.
+		betrag = anzahlStifte * preisStift * 0.9;		// 10% Rabatt, da Anzahl Ã¼ber 99 und unter 300 (100-299) ist.
 	}
 	else
 	{
-		betrag = anzahlStifte * preisStift * 0.8;		// 20% Rabatt, da Wert über 100 und 300 ist.
+		betrag = anzahlStifte * preisStift * 0.8;		// 20% Rabatt, da Wert Ã¼ber 100 und 300 ist.
 	}
 	cout << "Der Preis fuer die gewuenschten " << anzahlStifte << " Stifte betraegt " << betrag << " Euro." << endl;
 	system("pause");
