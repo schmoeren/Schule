@@ -12,7 +12,7 @@ int main()
 {
 	int* minMax;
 	minMax = minMaxArray(arr, n);
-	cout << minMax[0] << endl;		//Wenn man Text vor Array hat wie "Min: ", muss der Array in der Funktion zu einem static array umschrieben werden da sonnst der Wert im Ram überschrieben wird und ein anderes Ergebnis rauskommt.
+	cout << minMax[0] << endl;		//Wenn man Text vor Array hat wie "Min: ", muss der Array in der Funktion zu einem static array umschrieben werden da sonnst der Wert im Ram Ã¼berschrieben wird und ein anderes Ergebnis rauskommt.
 	cout << minMax[1] << endl;
 	cout << averageArray(arr, n) << endl;
 	cout << "Varianz: " << variance(arr, n) << endl;
